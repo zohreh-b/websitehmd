@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
@@ -36,6 +37,14 @@
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
               
 >>>>>>> 56d66a91a3fd2054b6d65ef9f93e45b4d4bf5cf2
+=======
+              "C:/codep/comment/comment/node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "C:/codep/comment/comment/node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "C:/codep/comment/comment/node_modules/jquery/dist/jquery.min.js"
+>>>>>>> mastercommit
             ]
           },
           "configurations": {

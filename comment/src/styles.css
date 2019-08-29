@@ -1,9 +1,16 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> mastercommit
 @font-face {
     font-family:'aban';
     
     src:
+<<<<<<< HEAD
         url('src/assets/font/aban.ttf') format('truetype'),
+=======
+        url('C:/codep/comment/comment/src/assets/font/aban.ttf') format('truetype'),
+>>>>>>> mastercommit
        
     
 }
@@ -11,7 +18,11 @@
     font-family:'entezar';
     
     src:
+<<<<<<< HEAD
         url('src/assets/font/entzar.ttf') format('truetype'),
+=======
+        url('C:/codep/comment/comment/src/assets/font/entzar.ttf') format('truetype'),
+>>>>>>> mastercommit
        
     
 }
@@ -55,6 +66,7 @@ format('truetype') ;
 	font-style: normal;
     font-weight: bold;
 }
+<<<<<<< HEAD
 h1{
     font-family: 'yekan';
     font-size: 50px;
@@ -71,6 +83,23 @@ p{
 }
 h2{
     font-family: 'yekan';
+=======
+h6,li,a,ul,h3,input{
+    
+    font-family: 'ham',  sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-family: 'hk';
+    font-size: 50px;
+}
+p{
+    font-size: 5px;
+    font-family: 'amitra3';
+}
+h2{
+    font-family: 'hk';
+>>>>>>> mastercommit
     font-size: 30px;
 }
 
