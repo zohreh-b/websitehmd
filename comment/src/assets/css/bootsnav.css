@@ -372,7 +372,7 @@ body.on-side{
     padding: 25px 30px;
     height: 100%;
     display: block;
-    background-image: linear-gradient(#99aaec, #fff);
+    background-image: transparent;
     -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
