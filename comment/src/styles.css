@@ -56,11 +56,11 @@ format('truetype') ;
 }
 h6,li,a,ul,h3,input{
     
-    font-family: 'ham',  sans-serif;
+    font-family: 'amitra3',  sans-serif;
     font-size: 16px;
 }
 h1{
-    font-family: 'hk';
+    font-family: 'amitra3';
     font-size: 50px;
 }
 p{
@@ -68,7 +68,7 @@ p{
     font-family: 'amitra3';
 }
 h2{
-    font-family: 'hk';
+    font-family: 'amitra3';
     font-size: 30px;
 }
 
