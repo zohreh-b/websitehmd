@@ -1,0 +1,23 @@
+/*header.masthead {
+ font-family: 'C:/projectwebsiteimportant/website/src/assets/font/btitr.ttf';
+  height: 43rem;
+    padding-top: 10rem;
+    padding-bottom: calc(10rem - 56px);
+    background-position: 50%;
+    background-size: cover;
+    background-image: url("C:/projectwebsiteimportant/website/src/assets/bg.jpg");
+    background-color: blue;
+  }*/
+  .masthead {
+    color: white;
+    height: 100vh;
+    min-height: 500px;
+    /*background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');*/
+    background-image: url('C:/codep/comment/comment/src/pic/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+  }
+ 
+ 

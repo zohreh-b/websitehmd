@@ -1,0 +1,74 @@
+@font-face {
+    font-family:'aban';
+    
+    src:
+        url('C:/codep/comment/comment/src/assets/font/aban.ttf') format('truetype'),
+       
+    
+}
+@font-face {
+    font-family:'entezar';
+    
+    src:
+        url('C:/codep/comment/comment/src/assets/font/entzar.ttf') format('truetype'),
+       
+    
+}
+@font-face {
+	font-family: 'hk';
+ src: 
+ url('src/assets/font/hekayat.ttf') 
+format('truetype') ;
+	font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+	font-family: 'amitra3';
+ src: 
+ url('src/assets/font/a-mitra.ttf') 
+format('truetype') ;
+	font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+	font-family: 'yekan';
+ src: 
+ url('src/assets/font/yekan.ttf') 
+format('truetype') ;
+	font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+	font-family: 'cal';
+ src: 
+ url('src/assets/font/calibri.ttf') 
+format('truetype') ;
+	font-style: normal;
+    font-weight: bold;
+}
+@font-face {
+	font-family: 'ham';
+ src: 
+ url('src/assets/font/hamse.ttf') 
+format('truetype') ;
+	font-style: normal;
+    font-weight: bold;
+}
+h6,li,a,ul,h3,input{
+    
+    font-family: 'ham',  sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-family: 'hk';
+    font-size: 50px;
+}
+p{
+    font-size: 5px;
+    font-family: 'amitra3';
+}
+h2{
+    font-family: 'hk';
+    font-size: 30px;
+}
+
