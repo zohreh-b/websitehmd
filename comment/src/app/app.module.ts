@@ -12,6 +12,7 @@ import { PostComponent } from './homepage/post/post.component';
 import { FooterComponent } from './homepage/footer/footer.component';
 import { IndustryComponent } from './industry/industry.component';
 import { LoginComponent } from './login/login.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 
 
@@ -28,6 +29,7 @@ import { LoginComponent } from './login/login.component';
     FooterComponent,
     IndustryComponent,
     LoginComponent,
+    NotFoundComponent,
   
   ],
   imports: [
