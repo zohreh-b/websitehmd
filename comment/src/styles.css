@@ -54,21 +54,22 @@ format('truetype') ;
 	font-style: normal;
     font-weight: bold;
 }
-h6,li,a,ul,h3,input{
-    
-    font-family: 'amitra3',  sans-serif;
-    font-size: 16px;
-}
 h1{
-    font-family: 'amitra3';
+    font-family: 'yekan';
     font-size: 50px;
 }
+h6,li,a,ul,h3{
+    
+    font-family: 'yekan',  sans-serif;
+    font-size: 16px;
+}
+
 p{
-    font-size: 5px;
-    font-family: 'amitra3';
+    font-size: 10px;
+    font-family: 'yekan';
 }
 h2{
-    font-family: 'amitra3';
+    font-family: 'yekan';
     font-size: 30px;
 }
 
