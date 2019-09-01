@@ -1,11 +1,11 @@
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
+
 
 <div class="wrapper fadeInDown">
   <div id="formContent">
-    <!-- Login Form -->
+  
     <form>
       <br/>
       <h3>عضویت در سایت</h3>
@@ -13,12 +13,75 @@
       <br/>
       <input type="text" id="login" class="fadeIn second" name="login" placeholder="نام کاربری">
       <input type="text" id="password" class="fadeIn third" name="login" placeholder="رمز عبور">
-      <input type="submit" class="fadeIn fourth" value="عضویت">
+      <input type="submit" id="submit" class="fadeIn fourth" value="عضویت">
     </form>
-    <!-- Remind Passowrd -->
+    
     <div id="formFooter">
       <a class="underlineHover" href="#">رمز عبور خود را فراموش کردید؟</a>
     </div>
 
   </div>
+</div> -->
+
+<!-- main app container -->
+<div id="login">
+<div class="card m-3">
+  <h5 class="card-header"></h5>
+  <div class="card-body">
+      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+          <div class="form-row">
+              <div class="form-group col">
+              
+              </div>
+              <div class="form-group col-5">
+                  <label>نام</label>
+                  <input type="text" formControlName="firstName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.firstName.errors }" />
+                  <div *ngIf="submitted && f.firstName.errors" class="invalid-feedback">
+                      <div *ngIf="f.firstName.errors.required">فیلد نام خالی است!</div>
+                  </div>
+              </div>
+              <div class="form-group col-5">
+                  <label>نام خانوادگی</label>
+                  <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
+                  <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
+                      <div *ngIf="f.lastName.errors.required">فیلد نام خانوادگی خالی است!</div>
+                  </div>
+              </div>
+          </div>
+          <div class="form-group">
+              <label>ایمیل</label>
+              <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
+              <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                  <div *ngIf="f.email.errors.required"> فیلد ایمیل خالی است!</div>
+                  <div *ngIf="f.email.errors.email">ایمیل را نادرست وارد کردید!</div>
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col">
+                  <label>رمز عبور</label>
+                  <input type="password" formControlName="password" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.password.errors }" />
+                  <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                      <div *ngIf="f.password.errors.required">فیلد رمز عبور خالی است!</div>
+                      <div *ngIf="f.password.errors.minlength">رمز عبور باید بیشتر از6 کاراکتر باشد</div>
+                  </div>
+              </div>
+              <div class="form-group col">
+                  <label>تکرار رمز عبور</label>
+                  <input type="password" formControlName="confirmPassword" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.confirmPassword.errors }" />
+                  <div *ngIf="submitted && f.confirmPassword.errors" class="invalid-feedback">
+                      <div *ngIf="f.confirmPassword.errors.required">فیلد تکرار خالی است</div>
+                      <div *ngIf="f.confirmPassword.errors.mustMatch">رمز عبور همخوانی ندارد</div>
+                  </div>
+              </div>
+          </div>
+         
+          <div class="text-center">
+              <button class="btn btn-primary mr-1">ثبت</button>
+              <button class="btn btn-secondary" type="reset" (click)="onReset()">برگشت</button>
+          </div>
+      </form>
+  </div>
 </div>
+</div>
+
+

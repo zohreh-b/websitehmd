@@ -67,8 +67,12 @@ margin: 90px 90px 0 90px;
     -moz-transition: .1s;
   }
   .col{
+    float:left;
     margin-top: 2rem;
     margin-right: 40rem;
+  }
+  .col>h2{
+    float:right;
   }
   .clearfix {
 
