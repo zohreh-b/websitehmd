@@ -67,15 +67,12 @@ margin: 90px 90px 0 90px;
     -moz-transition: .1s;
   }
   .col{
-    float:left;
+    float: right;;
     margin-top: 2rem;
     margin-right: 40rem;
   }
-  .col>h2{
-    float:right;
-  }
+  
   .clearfix {
-
     clear: both;
   }
   @media only screen and (min-width: 1280px) {
@@ -83,7 +80,7 @@ margin: 90px 90px 0 90px;
       width: 1200px;
       margin: 0 auto;
     }
-  }
+  } 
   @media only screen and (max-width: 1139px) {
     .contain .social {
       width: 1000px;

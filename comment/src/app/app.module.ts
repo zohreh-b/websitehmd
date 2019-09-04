@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {ReactiveFormsModule} from '@angular/forms';
+import {FormsModule,ReactiveFormsModule} from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +15,7 @@ import { IndustryComponent } from './industry/industry.component';
 import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { from } from 'rxjs';
+import { SignupComponent } from './signup/signup.component';
 
 
 
@@ -32,11 +33,13 @@ import { from } from 'rxjs';
     IndustryComponent,
     LoginComponent,
     NotFoundComponent,
+    SignupComponent,
   
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
