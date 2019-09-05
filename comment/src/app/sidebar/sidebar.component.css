@@ -1,3 +1,19 @@
 h6{
     font-size: 20px;
 }
+#navsize{
+    height: 50px;
+}
+.container-fluid{
+    align-content: left;
+    height: 50px;
+    text-align: left;
+    left: 0;
+}
+h3{
+    position: absolute;
+}
+.attr-nav{
+    height: 60px;
+    
+}

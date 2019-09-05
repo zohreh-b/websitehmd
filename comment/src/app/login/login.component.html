@@ -1,10 +1,10 @@
 
 <div id="login">
 <div class="card m-3">
-  <h5 class="card-header"></h5>
-  <div class="card-body">
-      <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
-          <div class="form-row">
+  <h5 class="card-header"> جهت عضویت در سایت این قسمت را پر کنید </h5>
+  <div class="card-body" >
+      <form [formGroup]="registerForm" id="form" (ngSubmit)="onSubmit()">
+          <div class="form-row" >
               <div class="form-group col">
               
               </div>
@@ -16,7 +16,7 @@
                   </div>
               </div>
               <div class="form-group col-5">
-                  <label>نام خانوادگی</label>
+                  <label >نام خانوادگی</label>
                   <input type="text" formControlName="lastName" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.lastName.errors }" />
                   <div *ngIf="submitted && f.lastName.errors" class="invalid-feedback">
                       <div *ngIf="f.lastName.errors.required">فیلد نام خانوادگی خالی است!</div>
@@ -58,5 +58,6 @@
   </div>
 </div>
 </div>
+<h4>اگر قبلا ثبت نام کرده اید <a routerLink="/signup">وارد</a> شوید</h4>
 
  

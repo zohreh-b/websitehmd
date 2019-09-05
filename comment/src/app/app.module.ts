@@ -16,6 +16,7 @@ import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { from } from 'rxjs';
 import { SignupComponent } from './signup/signup.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 
 
@@ -34,6 +35,7 @@ import { SignupComponent } from './signup/signup.component';
     LoginComponent,
     NotFoundComponent,
     SignupComponent,
+    DashboardComponent,
   
   ],
   imports: [
