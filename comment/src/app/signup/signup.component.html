@@ -2,7 +2,7 @@
     <h1>ورود به سیستم</h1>
     <form [formGroup]="angForm" novalidate>
             <div class="form-group">
-        <input type="text" name="username" class="username" formControlName="name" placeholder="نام کاربری" required>
+        <input type="text" name="username" class="username" formControlName="name" placeholder="نام کاربری" required #username>
             </div>
         <div *ngIf="angForm.controls['name'].invalid && (angForm.controls['name'].dirty || angForm.controls['name'].touched)" class="alert alert-danger">
             <div *ngIf="angForm.controls['name'].errors.required">
@@ -11,17 +11,16 @@
         </div>
 
         <div class="form-group">
-                <input type="text" name="password" class="password" formControlName="password" placeholder="رمز عبور" required>
+                <input type="text" name="password" class="password" formControlName="password" placeholder="رمز عبور" required #password>
                     </div>
                 <div *ngIf="angForm.controls['password'].invalid && (angForm.controls['password'].dirty || angForm.controls['password'].touched)" class="alert alert-danger">
                     <div *ngIf="angForm.controls['password'].errors.required">
                     password is required.
                   </div>
                 </div>
-                
-        
         <!-- <input type="password" name="password" class="password" placeholder="رمز عبور" required> -->
-        <button type="submit" >وارد شوید</button>
+        <button type="submit" (click)="btnsignupcheck()">وارد شوید</button>
+        <span style="color: red; font-weight: bold;">{{loginmsg}}</span>
         <div class="error"><span>+</span></div>
     </form>
 </div>

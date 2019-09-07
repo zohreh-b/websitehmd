@@ -1,3 +1,5 @@
+import { AutGuardAdmin } from './signup/aut-guard-admin.service';
+import { AutGuard } from './signup/aut-guard.service';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { PostComponent } from './homepage/post/post.component';
@@ -13,7 +15,7 @@ const routes: Routes = [
   {path:'industry',component:IndustryComponent},
   {path:'login',component:LoginComponent},
   {path:'signup',component:SignupComponent},
-  {path:'dashboard',component:DashboardComponent},
+  {path:'dashboard',  component:DashboardComponent},
   {path:'not-found',component:NotFoundComponent},
   {path:'**',redirectTo:'/not-found'}
 ];

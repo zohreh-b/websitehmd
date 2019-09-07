@@ -145,6 +145,13 @@ button:active {
     -ms-transform: rotate(45deg);
 
 }
+@media only screen and (max-width: 640px)
+{ 
+.page-container{
+  margin-top: 600px;
+
+}
+}
 
 
 

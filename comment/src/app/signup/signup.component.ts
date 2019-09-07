@@ -1,6 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef,ViewChild } from '@angular/core';
 import { NgForm , FormGroup,  FormBuilder,  Validators} from '@angular/forms';
-
+import{SignupService} from './signup.service';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
@@ -9,10 +10,14 @@ import { NgForm , FormGroup,  FormBuilder,  Validators} from '@angular/forms';
 export class SignupComponent implements OnInit {
   
   data: any = {};
+  @ViewChild('username',{static:false}) Username:ElementRef;
+  @ViewChild('password',{static:false}) Password:ElementRef;
+ loginmsg:string="";
 
-  constructor(private fb: FormBuilder) {   this.createForm();}
+  constructor(private fb: FormBuilder,private signupservice:SignupService,private router:Router) {   this.createForm();}
 
   ngOnInit() {
+    this.signupservice.signout();
   }
   angForm: FormGroup;
   createForm() {
@@ -20,6 +25,13 @@ export class SignupComponent implements OnInit {
       name: ['', Validators.required ],
       password: ['', Validators.required ]
    });
+ }
+ btnsignupcheck(){
+   if(this.signupservice.signupcheck(this.Username.nativeElement.value,
+    this.Password.nativeElement.value))
+    this.router.navigate(['dashboard']);
+    else
+    this.loginmsg="نام کاربری یا رمز عبور اشتباه است";
  }
 
 
