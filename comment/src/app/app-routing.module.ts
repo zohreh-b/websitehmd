@@ -15,13 +15,14 @@ const routes: Routes = [
   {path:'industry',component:IndustryComponent},
   {path:'login',component:LoginComponent},
   {path:'signup',component:SignupComponent},
-  {path:'dashboard',  component:DashboardComponent},
+  {path:'dashboard',canActivate:[AutGuard], component:DashboardComponent},
   {path:'not-found',component:NotFoundComponent},
   {path:'**',redirectTo:'/not-found'}
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  
 })
 export class AppRoutingModule { }
