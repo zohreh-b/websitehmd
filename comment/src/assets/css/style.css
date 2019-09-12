@@ -40,10 +40,6 @@ a:hover{
 h1, h2, h3, h4, h5, h6{
     color:#3f3f3f;
     margin:0 0 15px 0;
-<<<<<<< HEAD
-=======
-    letter-spacing: 1px;
->>>>>>> mastercommit
     font-weight: bold;
 }
 
@@ -420,42 +416,6 @@ nav.navbar-inverse.navbar-full .navbar-toggle{
     }
 }
 
-<<<<<<< HEAD
-
-=======
-/*
-Color
-=========================== */
-nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .content ul.menu-col li a:hover,
-.side .widget ul.link li a:hover,
-.side .widget ul.link li a:focus,
-.check-list li:before,
-ul.cart-list > li > h6 > a,
-.attr-nav > ul > li > a:hover,
-.attr-nav > ul > li > a:focus,
-nav.navbar-sidebar ul.nav li.dropdown.on > a,
-nav.navbar-sidebar .dropdown .megamenu-content .col-menu.on .title,
-nav.navbar-sidebar ul.nav li.dropdown ul.dropdown-menu li a:hover,
-nav.navbar ul.nav li.dropdown.on > a,
-nav.navbar.navbar-inverse ul.nav li.dropdown.on > a,
-nav.navbar-sidebar ul.nav li.dropdown.on ul.dropdown-menu li.dropdown.on > a,
-nav.navbar .dropdown .megamenu-content .col-menu.on .title,
-nav.navbar ul.nav > li > a:hover,
-nav.navbar ul.nav > li.active > a:hover,
-nav.navbar ul.nav li.active > a,
-nav.navbar li.dropdown ul.dropdown-menu > li a:hover{
-    color: #512088;
-}
-
-nav.navbar.navbar-transparent ul.nav > li > a:hover,
-nav.navbar.no-background ul.nav > li > a:hover,
-nav.navbar ul.nav li.scroll.active > a,
-nav.navbar.navbar-dark ul.nav li.dropdown ul.dropdown-menu  > li > a:hover,
-nav.navbar ul.nav li.dropdown.on > a,
-nav.navbar-dark ul.nav li.dropdown.on > a{
-    color: #f43438 !important;
-}
->>>>>>> mastercommit
 
 @media(max-width:920px){
     nav.navbar .dropdown .megamenu-content .col-menu ul > li > a:hover,

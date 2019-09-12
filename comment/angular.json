@@ -24,25 +24,12 @@
               "src/assets"
             ],
             "styles": [
-<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": ["node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js"
-              
-<<<<<<< HEAD
-=======
->>>>>>> 56d66a91a3fd2054b6d65ef9f93e45b4d4bf5cf2
-=======
-              "C:/codep/comment/comment/node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/styles.css"
-            ],
-            "scripts": [
-              "C:/codep/comment/comment/node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "C:/codep/comment/comment/node_modules/jquery/dist/jquery.min.js"
->>>>>>> mastercommit
->>>>>>> 591993ec9f3631cee08f716a635eb68741b6f045
+             
             ]
           },
           "configurations": {

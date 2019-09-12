@@ -8,60 +8,16 @@
     background-image: url("C:/projectwebsiteimportant/website/src/assets/bg.jpg");
     background-color: blue;
   }*/
-<<<<<<< HEAD
-  h1{
-    font-size: 35px;
-    color: white;
-  }
-=======
->>>>>>> mastercommit
   .masthead {
     color: white;
     height: 100vh;
     min-height: 500px;
     /*background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');*/
-<<<<<<< HEAD
-    background-image: url('src/pic/banner-bg.png');
-=======
     background-image: url('C:/codep/comment/comment/src/pic/banner-bg.png');
->>>>>>> mastercommit
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
   }
-<<<<<<< HEAD
-
-   
-      .button_cont
-      {
-      
-        text-align: center;
-        margin-right: 25px;
-        display: inline-block;
-       width: 50px;
-       
-      }
-      .button_cont2
-      {
-       margin-left: 20px;
-        text-align: center;
-        margin-right: 25px;
-        display: inline-block;
-       width: 50px;
-      }
-
-
-
-@media (max-width: 991px) {
  
-}
-@media (max-width: 640px){
-  
-
-}
-
-=======
- 
->>>>>>> mastercommit
  

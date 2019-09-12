@@ -1,10 +1,7 @@
 *{height: auto;}
-<<<<<<< HEAD
 .container{
     margin-top: 50px;
 }
-=======
->>>>>>> mastercommit
 p{
     font-size: 2rem;
     
@@ -28,7 +25,6 @@ border-color: rgb(65, 96, 197);
     height: 50px;
 
 }
-<<<<<<< HEAD
 @media only screen and (max-width: 640px)
 { 
 .container{
@@ -37,5 +33,3 @@ border-color: rgb(65, 96, 197);
 }
 }
  
-=======
->>>>>>> mastercommit
