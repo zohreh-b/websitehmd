@@ -3,7 +3,7 @@
     font-family:'aban';
     
     src:
-        url('C:/codep/comment/comment/src/assets/font/aban.ttf') format('truetype'),
+        url('src/assets/font/aban.ttf') format('truetype'),
        
     
 }
@@ -11,7 +11,7 @@
     font-family:'entezar';
     
     src:
-        url('C:/codep/comment/comment/src/assets/font/entzar.ttf') format('truetype'),
+        url('src/assets/font/entzar.ttf') format('truetype'),
        
     
 }

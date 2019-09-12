@@ -17,7 +17,7 @@
     height: 100vh;
     min-height: 500px;
     /*background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');*/
-    background-image: url('C:/codep/comment/comment/src/pic/banner-bg.png');
+    background-image: url('src/pic/banner-bg.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
