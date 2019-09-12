@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
+
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
   {path:'',component:PostComponent},
@@ -18,11 +19,11 @@ const routes: Routes = [
   {path:'dashboard',canActivate:[AutGuard], component:DashboardComponent},
   {path:'not-found',component:NotFoundComponent},
   {path:'**',redirectTo:'/not-found'}
+  
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-  
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }
