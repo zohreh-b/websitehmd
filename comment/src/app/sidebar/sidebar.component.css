@@ -5,15 +5,21 @@ h6{
     height: 50px;
 }
 .container-fluid{
+  
     align-content: left;
     height: 50px;
     text-align: left;
     left: 0;
 }
 h3{
-    position: absolute;
+   
+}
+.alignnav{
+    position:absolute ;
+            border: 2p solid black;
 }
 .attr-nav{
+   
     height: 60px;
     
 }
