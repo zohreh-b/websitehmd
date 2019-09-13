@@ -1,21 +1,14 @@
-<<<<<<< HEAD
 
 
-=======
->>>>>>> 5f9ae585ef055f9da03b85f491fbdcee6fb1147a
 @font-face {
     font-family:'aban';
     
     src:
-<<<<<<< HEAD
 
         url('src/assets/font/aban.ttf') format('truetype'),
 
         url('C:/codep/comment/comment/src/assets/font/aban.ttf') format('truetype'),
 
-=======
-        url('src/assets/font/aban.ttf') format('truetype'),
->>>>>>> 5f9ae585ef055f9da03b85f491fbdcee6fb1147a
        
     
 }
@@ -23,14 +16,10 @@
     font-family:'entezar';
     
     src:
-<<<<<<< HEAD
 
         url('src/assets/font/entzar.ttf') format('truetype'),
         url('C:/codep/comment/comment/src/assets/font/entzar.ttf') format('truetype'),
 
-=======
-        url('src/assets/font/entzar.ttf') format('truetype'),
->>>>>>> 5f9ae585ef055f9da03b85f491fbdcee6fb1147a
        
     
 }
@@ -85,19 +74,11 @@ h6,li,a,ul,h3{
 }
 
 p{
-<<<<<<< HEAD
     font-size: 5px;
     font-family: 'amitra3';
 }
 h2{
     font-family: 'hk';
-=======
-    font-size: 10px;
-    font-family: 'yekan';
-}
-h2{
-    font-family: 'yekan';
->>>>>>> 5f9ae585ef055f9da03b85f491fbdcee6fb1147a
     font-size: 30px;
 }
 
