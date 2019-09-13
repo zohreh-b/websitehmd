@@ -8,21 +8,29 @@
     background-image: url("C:/projectwebsiteimportant/website/src/assets/bg.jpg");
     background-color: blue;
   }*/
+<<<<<<< HEAD
   h1{
     font-size: 35px;
     color: white;
   }
+=======
+>>>>>>> 5f9ae585ef055f9da03b85f491fbdcee6fb1147a
   .masthead {
     color: white;
     height: 100vh;
     min-height: 500px;
     /*background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');*/
+<<<<<<< HEAD
     background-image: url('src/pic/banner-bg.png');
+=======
+    background-image: url('C:/codep/comment/comment/src/pic/banner-bg.png');
+>>>>>>> 5f9ae585ef055f9da03b85f491fbdcee6fb1147a
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     
   }
+<<<<<<< HEAD
 
    
       .button_cont
@@ -53,4 +61,7 @@
 
 }
 
+=======
+ 
+>>>>>>> 5f9ae585ef055f9da03b85f491fbdcee6fb1147a
  
