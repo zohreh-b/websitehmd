@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
   {path:'',component:PostComponent},
   {path:'industry',component:IndustryComponent},
+  {path:'post',component:PostComponent},
   {path:'login',component:LoginComponent},
   {path:'signup',component:SignupComponent},
   {path:'dashboard',canActivate:[AutGuard], component:DashboardComponent},
