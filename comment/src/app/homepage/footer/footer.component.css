@@ -122,3 +122,163 @@ margin: 90px 90px 0 90px;
         
       }
   }}
+ *{
+	color: beige;
+
+} 
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.footer-distributed{
+	bottom: 0;
+	height: 350px;
+	background-color: rgb(11, 18, 49);
+	padding: 5px;
+	
+	
+}
+#footer-top{
+	height: auto;
+
+}
+/* #footer-right{
+	right: 0;
+	direction: rtl;
+	float: right;
+
+} */
+#footer-right h3{
+	
+	float: right;
+	direction: rtl;
+padding:7px 30px 5px 0;
+	
+}
+#footer-right p{
+
+	padding: 0 30px 5px 0;
+	float: right;
+	direction: rtl;
+	font-size: 15px;
+}
+#footer-left{
+	direction: rtl;
+	padding-left: 25px;
+	
+}
+#footer-left h6{
+	display: inline block;
+}
+/* #footer-bottom{
+	float: right;
+	direction: rtl;
+} */
+ #footerR{
+
+	padding: 7px 40px 5px 0;
+	
+	
+	
+} 
+#footerR h3{
+	float: right;
+	direction: rtl;
+}
+#footerR li{
+	list-style-type: none;
+}
+#footerR li a{
+float: right;
+	direction: rtl;
+	right: 0;
+} 
+#footerL h3 {
+	direction: rtl;
+	float: right;
+	right: 0;
+	
+}
+#footerL li {
+	direction: rtl;
+	float: right;
+	right: 0;
+	list-style-type: none;
+	
+}
+@media only screen and (max-width:640px) {
+	.footer-distributed{
+		height:550px;;
+	}
+	#footer-left{
+		height: 620;
+		float: right;
+	}
+	#footer-right{
+		float: right;
+		direction: rtl;
+	}
+	#footer-right{
+		padding: 10px 5px 5px 5px;
+	}
+	#footer-right p{
+		direction: rtl;
+		padding: 0 25px 4px 30px;
+		right: 0;
+	}
+	#footerR{
+		height: auto;
+		float: right;
+	}
+	#footerR h3{
+		float: right;
+		direction: rtl;
+		font-size: 15px;
+	}
+	
+	#footerR li a{
+	float: right;
+		direction: rtl;
+		right: 0;
+		font-size: 13px;
+	} 
+	#footerL{
+		float: right;
+		height: auto;
+		padding-right: 33px;
+	}
+	#footerL h3 {
+		direction: rtl;
+		float: right;
+		right: 0;
+		padding-right: 10px;
+		
+	}
+	#footerL li {
+		direction: rtl;
+		right: 0;
+		list-style-type: none;
+		display: inline block; 
+		padding-right: 5px;
+		
+	}
+	#footerL li a{
+		font-size: 12px;
+		padding-right:1px;
+	}
+}
+@media only screen and (max-width:568px){
+#footerL li a{
+		font-size: 10px;
+}
+}
+@media only screen and (max-width:1024px){
+	#footerL li a{
+		font-size: 15px;
+}
+}
