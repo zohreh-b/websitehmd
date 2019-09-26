@@ -22,7 +22,9 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { from } from 'rxjs';
 import { SignupComponent } from './signup/signup.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { PropertyComponent } from './property/property.component';
+import { PropertyComponent } from './homepage/property/property.component';
+import { NewslettersComponent } from './newsletters/newsletters.component';
+import { ListmenuComponent } from './sidebar/listmenu/listmenu.component';
 
 
 
@@ -44,6 +46,8 @@ import { PropertyComponent } from './property/property.component';
     SignupComponent,
     DashboardComponent,
     PropertyComponent,
+    NewslettersComponent,
+    ListmenuComponent,
   
   ],
   imports: [

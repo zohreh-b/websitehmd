@@ -1,12 +1,14 @@
 .features-small-item {
+  height: 250px;
     cursor: pointer;
     display: block;
     background: #FFFFFF;
-    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+    box-shadow: 0 2px 48px 0 rgba(66, 66, 66, 0.507);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     border-radius: 30px;
     padding: 30px;
+    padding-top: 120px;
     text-align: center;
     -webkit-transition: all 0.3s ease 0s;
     -moz-transition: all 0.3s ease 0s;
@@ -14,6 +16,13 @@
     transition: all 0.3s ease 0s;
     position: relative;
     margin-bottom: 30px;
+  }
+  .features-title{
+    font-size: 200px;
+    font-family: 'yekan';
+    text-shadow:
+    1px 1px 0 rgb(184, 184, 184);
+ 
   }
   
   .features-small-item:hover .icon {
@@ -25,9 +34,9 @@
     -moz-transition: all 0.3s ease 0s;
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    width: 90px;
-    height: 90px;
-    line-height: 90px;
+    width:150px;
+    height: 150px;
+    line-height: 150px;
     margin: auto;
     position: relative;
     margin-bottom: 30px;
@@ -35,12 +44,27 @@
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
+    
+  }
+  .iconkh{
+    background-size: 120px; 
+    background-image: url("src/pic/mail.png");
+    border-radius: 50%;
+  }
+  .iconlog{
+    box-align: center;
+    background-size: 93px;
+    background-image: url("src/pic/mem.jpg");
+    border-radius: 50%;
+  }
+  .iconesh{
+    box-align: center;
+    background-size: 85px;
+    background-image: url("src/pic/gif.png");
+    border-radius: 50%;
   }
   
-  .features-small-item .icon i {
-    font-size: 18px;
-    color: #fff;
-  }
+ 
   
   .features-small-item .features-title {
     font-weight: 500;
