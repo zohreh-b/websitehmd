@@ -2,13 +2,14 @@ import { Component, OnInit, ElementRef,ViewChild } from '@angular/core';
 import { NgForm , FormGroup,  FormBuilder,  Validators} from '@angular/forms';
 import{SignupService} from './signup.service';
 import { Router } from '@angular/router';
+import { MustMatch } from '../login/_helper/must-match.validator';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
-  
+  angForm: FormGroup;
   data: any = {};
   @ViewChild('username',{static:false}) Username:ElementRef;
   @ViewChild('password',{static:false}) Password:ElementRef;
@@ -19,7 +20,6 @@ export class SignupComponent implements OnInit {
   ngOnInit() {
     this.signupservice.signout();
   }
-  angForm: FormGroup;
   createForm() {
    this.angForm = this.fb.group({
       name: ['', Validators.required ],

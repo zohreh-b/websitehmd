@@ -3,17 +3,27 @@ h6{
 }
 #navsize{
     height: 50px;
+    
 }
 .container-fluid{
+  
     align-content: left;
     height: 50px;
     text-align: left;
     left: 0;
 }
-h3{
-    position: absolute;
+
+.alignnav{
+    position:absolute ;
+            border: 2p solid black;
 }
 .attr-nav{
+   
     height: 60px;
+    
+}
+.side{
+    background-color: rgb(232, 237, 245);
+    border-radius: 25px 0 0 25px;
     
 }

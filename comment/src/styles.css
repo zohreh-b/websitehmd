@@ -1,9 +1,14 @@
 
+
 @font-face {
     font-family:'aban';
     
     src:
+
+        url('src/assets/font/aban.ttf') format('truetype'),
+
         url('C:/codep/comment/comment/src/assets/font/aban.ttf') format('truetype'),
+
        
     
 }
@@ -11,7 +16,10 @@
     font-family:'entezar';
     
     src:
+
+        url('src/assets/font/entzar.ttf') format('truetype'),
         url('C:/codep/comment/comment/src/assets/font/entzar.ttf') format('truetype'),
+
        
     
 }
@@ -66,11 +74,11 @@ h6,li,a,ul,h3{
 }
 
 p{
-    font-size: 10px;
+    font-size: 15px;
     font-family: 'yekan';
 }
 h2{
-    font-family: 'yekan';
+    font-family: 'hk';
     font-size: 30px;
 }
 

@@ -1,5 +1,4 @@
 
-
 /* Atribute Navigation
 =================================*/
 .attr-nav{
@@ -51,7 +50,6 @@
     box-shadow: 0px 0px 0px;
     border: solid 1px #e0e0e0;
 }
-
 
 
 /* Side Menu
@@ -253,8 +251,39 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         margin-top: 0;
     }
     
-   
-  
+    nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li.dropdown > a.dropdown-toggle:before{
+        font-family: 'FontAwesome';
+        float: left;
+        content: "\f104";
+        margin-top: 0;
+    }
+    
+    nav.navbar.bootsnav li.dropdown ul.dropdown-menu ul.dropdown-menu{
+        top: -3px;
+    }
+    
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content{
+        padding: 0 15px !important;
+    }
+    
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content > li{
+       padding: 25px 0 20px;
+    }
+    
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content.tabbed{
+        padding: 0;
+    }
+    
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content.tabbed > li{
+        padding: 0;
+    }
+    
+    nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .col-menu{
+        padding: 0 30px;
+        margin: 0 -0.5px;
+        border-left: solid 1px #f0f0f0;
+        border-right: solid 1px #f0f0f0;
+    }
     
     nav.navbar.bootsnav ul.dropdown-menu.megamenu-content .col-menu:first-child{
         border-left: none;
@@ -771,8 +800,93 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         display: none;
     }
     
- 
-
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title{
+        padding: 10px 15px 10px 0;
+        line-height: 24px;
+        text-transform: none;
+        font-weight: 400;
+        letter-spacing: 0px;
+        margin-bottom: 0;
+        cursor: pointer;
+        border-bottom: solid 1px #e0e0e0;
+        color: #6f6f6f;
+    }
+    
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu ul > li > a{
+        display: block;
+        width: 100%;
+        border-bottom: solid 1px #e0e0e0;
+        padding: 8px 0;
+    }
+    
+   nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .title:before{
+        font-family: 'FontAwesome';
+        content: "\f105";
+        float: right;
+        font-size: 16px;
+        margin-left: 10px;
+       position: relative;
+       right: -15px;
+    }
+    
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu:last-child .title{
+        border-bottom: none;
+    }
+    
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu.on:last-child .title{
+        border-bottom: solid 1px #e0e0e0;
+    }
+    
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu:last-child ul.menu-col li:last-child a{
+        border-bottom: none;
+    }
+    
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu.on .title:before{
+        content: "\f107";
+    }
+    
+    nav.navbar.bootsnav .dropdown .megamenu-content .col-menu .content{
+        padding: 0 0 0 15px;
+    }
+    
+    nav.bootsnav.brand-center .navbar-collapse{
+        display: block;
+    }
+    
+    nav.bootsnav.brand-center ul.nav{
+        margin-bottom: 0px !important;
+    }
+    
+    nav.bootsnav.brand-center .navbar-collapse .col-half{
+        width: 100%;
+        float: none;
+        display: block;
+    }
+    
+    nav.bootsnav.brand-center .navbar-collapse .col-half.left{
+        margin-bottom: 0;
+    }
+    
+    nav.bootsnav .megamenu-content{
+        padding: 0;
+    }
+    
+    nav.bootsnav .megamenu-content .col-menu{
+        padding-bottom: 0;
+    }
+    
+    nav.bootsnav .megamenu-content .title{
+        cursor: pointer;
+        display: block;
+        padding: 10px 15px;
+        margin-bottom: 0;
+        font-weight: normal;
+    }
+    
+    nav.bootsnav .megamenu-content .content{
+        display: none;
+    }
+    
     .attr-nav{
         position: absolute;
         right: 60px;
@@ -871,7 +985,7 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         background: #fff;
         z-index: 99;
         width: 280px;
-        height: 50% !important;
+        height: 100% !important;
         left: -280px;
         top: 0;
         padding: 0;
@@ -959,7 +1073,9 @@ body.on-side .wrap-sticky nav.navbar.bootsnav.sticked{
         left: -275px;
     }
     
-    
+    .top-search .container{
+        padding: 0 15px;
+    }
     
     nav.bootsnav.navbar-full .navbar-collapse{
         left: 15px;
