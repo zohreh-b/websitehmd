@@ -9,15 +9,17 @@
     background-color: blue;
   }*/
   h1{
-    font-size: 35px;
-    color: white;
+    font-size: 50px;
+   
+    color: black;
+  
   }
   .masthead {
     color: white;
     height: 100vh;
     min-height: 500px;
     /*background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080');*/
-    background-image: url('src/pic/banner-bg.png');
+    background-image: url('src/pic/h2.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

@@ -191,12 +191,14 @@ padding:7px 30px 5px 0;
 	direction: rtl;
 }
 #footerR li{
-	list-style-type: none;
+  list-style-type: none;
+  text-decoration: none;
 }
 #footerR li a{
 float: right;
 	direction: rtl;
-	right: 0;
+  right: 0;
+  text-decoration: none;
 } 
 #footerL h3 {
 	direction: rtl;
@@ -208,7 +210,8 @@ float: right;
 	direction: rtl;
 	float: right;
 	right: 0;
-	list-style-type: none;
+  list-style-type: none;
+  text-decoration: none;
 	
 }
 @media only screen and (max-width:640px) {
@@ -245,7 +248,8 @@ float: right;
 	float: right;
 		direction: rtl;
 		right: 0;
-		font-size: 13px;
+    font-size: 13px;
+    text-decoration: none;
 	} 
 	#footerL{
 		float: right;
@@ -268,17 +272,20 @@ float: right;
 		
 	}
 	#footerL li a{
+    text-decoration: none;
 		font-size: 12px;
 		padding-right:1px;
 	}
 }
 @media only screen and (max-width:568px){
 #footerL li a{
+  text-decoration: none;
 		font-size: 10px;
 }
 }
 @media only screen and (max-width:1024px){
 	#footerL li a{
+    text-decoration: none;
 		font-size: 15px;
 }
 }

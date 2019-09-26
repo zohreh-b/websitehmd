@@ -8,16 +8,18 @@ import { NotFoundComponent } from './not-found/not-found.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { NewslettersComponent } from './newsletters/newsletters.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
   {path:'',component:PostComponent},
   {path:'industry',component:IndustryComponent},
+  {path:'newsletters',component:NewslettersComponent},
   {path:'post',component:PostComponent},
   {path:'login',component:LoginComponent},
   {path:'signup',component:SignupComponent},
-  {path:'dashboard',canActivate:[AutGuard], component:DashboardComponent},
+  {path:'dashboard', component:DashboardComponent},
   {path:'not-found',component:NotFoundComponent},
   {path:'**',redirectTo:'/not-found'}
   
