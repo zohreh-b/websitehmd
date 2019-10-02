@@ -14,12 +14,12 @@ p{
 .card{
     width: 250px;
     border-radius: 30px;
-    border-color: rgb(65, 96, 197);
+    border-color: rgb(103, 22, 134);
 }
 .card-header{
 height: 150px;
 border-radius: 30px ;
-border-color: rgb(65, 96, 197);
+border-color: rgb(103, 22, 134);
 }
 .card-body{
     height: 50px;
