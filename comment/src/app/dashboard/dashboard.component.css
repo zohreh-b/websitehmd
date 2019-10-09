@@ -6,29 +6,28 @@
 h2{
     float: right;
     direction: rtl;
-    font-size: 20px;
-    color: rgb(75, 23, 105);
-    padding-right: 100px;
+    color: #28beb5;
+   padding-right: 1500px;
     
 }
 .post{
     width: 300px;
     height: 300px;
-    border: 2px solid rgb(63, 13, 104);
+    border: 2px solid #28beb5;
     border-radius: 10px;
     float: right;
-    
+  margin-right:400px; 
  
 }
  .post h4{
 font-family: "byekan";
 font-size: 27px;
 text-align: center;
-color: rgb(141, 49, 228);
+color: #28beb5;
 } 
 hr{
     width: 180px;
-    border-color: rgb(133, 130, 130);
+    border-color: #70ad5f;
     height: 2px;
     border-width: 2px;
 }
@@ -41,25 +40,62 @@ p{
    width: 200px;
    height: 50px;
    margin: 10px 10px 10px 45px;
-   background-image: linear-gradient(rgb(139, 102, 156),rgb(65, 18, 112)) ;
+   background-image: linear-gradient(#38bcae,#81ce68) ;
    border-radius: 10px;
    font-size: 17px;
    font-family: "byekan";
-   border: 1px solid rgb(107, 39, 124);
+   border: 1px solid #2ea59f;
 }
-@media only screen and (max-width:1024px) {
+@media only screen and (min-width:320px){
+    h2{
+        float: right;
+        direction: rtl;
+        font-size: 20px;
+        color: #28beb5;
+        padding-right: 30px;
+        
+    }
+    .post{
+        margin-right:1px;
+        margin-top: 20px;
+    }
+    }
+@media only screen and (min-width:360px){
+.post{
+    margin:20px;
+}
+}
+@media only screen and (min-width:411px){
     h2{
        
-        margin:10px 0 20px 200px;
+        margin:10px 50px 20px 50px;
+    }
+    .post{
+        margin-right:40px;
+    }
+    }
+    @media only screen and (min-width:768px){
+        h2{
+       
+            margin:10px 200px 20px 200px;
+        }
+        .post{
+            margin-right:10px;
+        }
+        }
+@media only screen and (min-width:1024px) {
+    h2{
+       
+        margin:10px 300px 20px 200px;
     }
     .post{
      
-        display: inline-block;
+        margin-right:100px;
         
     }
     
 }
-@media only screen and (max-width:1366px){
+/* @media only screen and (min-width:1366px){
     h2{
         margin: 10px 250px 30px 100px;
     }
@@ -68,4 +104,4 @@ p{
         float: right;
         
     }
-}
+} */
