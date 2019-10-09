@@ -1,8 +1,12 @@
+@font-face{
+  font-family:'vazir';
+  src:url(src/assets/font/Vazir.ttf);
+}
 .features-small-item {
   height: 250px;
     cursor: pointer;
     display: block;
-    background: #FFFFFF;
+    background: #ffff;
     box-shadow: 0 2px 48px 0 rgba(66, 66, 66, 0.507);
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -18,13 +22,10 @@
     margin-bottom: 30px;
   }
   .features-title{
-    font-size: 200px;
-    font-family: 'yekan';
-    text-shadow:
-    1px 1px 0 rgb(184, 184, 184);
- 
+    font-family: "vazir";
+    
+    
   }
-  
   .features-small-item:hover .icon {
     background-color: #ff589e;
   }
@@ -69,7 +70,7 @@
   .features-small-item .features-title {
     font-weight: 500;
     font-size: 18px;
-    color: #1e1e1e;
+    color: #30bcaf;
     letter-spacing: 0.7px;
     margin-bottom: 15px;
     position: relative;
@@ -98,4 +99,5 @@
     margin-top: -220px;
     z-index: 9;
   }
+ 
   

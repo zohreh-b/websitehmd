@@ -1,3 +1,7 @@
+@font-face{
+    font-family:'vazir';
+    src:url(src/assets/font/Vazir.ttf);
+}
 *{height: auto;}
 .container{
     margin-top: 50px;
@@ -5,6 +9,9 @@
 p{
     font-size: 2rem;
     
+}
+.container{
+    margin-right: 25px;
 }
 .post{
     display: inline-block;
@@ -14,16 +21,21 @@ p{
 .card{
     width: 250px;
     border-radius: 30px;
-    border-color: rgb(103, 22, 134);
+    border-color: #2ea59f;
+    box-shadow: 0 2px 10px 0 rgba(66, 66, 66, 0.507);
 }
 .card-header{
 height: 150px;
 border-radius: 30px ;
-border-color: rgb(103, 22, 134);
+border-color: #2ea59f;
+
 }
 .card-body{
     height: 50px;
 
+}
+.text-center{
+    font-family:"vazir";
 }
 @media only screen and (max-width: 640px)
 { 
