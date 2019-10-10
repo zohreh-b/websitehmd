@@ -1,30 +1,26 @@
- @font-face{
+.container{
+    margin-right: 200px;
+}
+@font-face{
     font-family:'byekan';
     src:url(src/assets/font/yekan.ttf);
 }
 
-h2{
-    float: right;
-    direction: rtl;
-    font-size: 20px;
-    color: rgb(75, 23, 105);
-    padding-right: 100px;
-    
-}
+
 .post{
     width: 300px;
     height: 300px;
-    border: 2px solid rgb(63, 13, 104);
+    border: 2px solid #27aaa4;
     border-radius: 10px;
     float: right;
-    
+    margin-top: 50px;
  
 }
  .post h4{
 font-family: "byekan";
 font-size: 27px;
 text-align: center;
-color: rgb(141, 49, 228);
+color: #3cbcaf;
 } 
 hr{
     width: 180px;
@@ -41,31 +37,55 @@ p{
    width: 200px;
    height: 50px;
    margin: 10px 10px 10px 45px;
-   background-image: linear-gradient(rgb(139, 102, 156),rgb(65, 18, 112)) ;
+   background-image: linear-gradient(#71c27f,#2dbcb6) ;
    border-radius: 10px;
    font-size: 17px;
    font-family: "byekan";
-   border: 1px solid rgb(107, 39, 124);
+   border: 1px solid #27a9a1;
 }
-@media only screen and (max-width:1024px) {
+@media (min-width: 360px){
+h2{
+padding:0 20px 50px 20px;
+}
+.post{
+    margin-bottom: 40px;
+}
+}
+@media (min-width: 480px){
     h2{
-       
-        margin:10px 0 20px 200px;
+        padding-right: 100px;
     }
     .post{
-     
-        display: inline-block;
-        
+        margin-right: 80px;
     }
-    
 }
-@media only screen and (max-width:1366px){
+@media (min-width: 768px){
     h2{
-        margin: 10px 250px 30px 100px;
+        padding-right: 200px;
     }
     .post{
-        margin:15px 100px 25px 5px;
-        float: right;
-        
+        margin-right: 20px;
     }
 }
+@media (min-width: 320px){
+    h2{
+        padding-right: 30px;
+    }
+    .post{
+        margin-bottom: 30px;
+    }
+}
+@media (min-width: 768px){
+    h2{
+        padding-right: 170px;
+    }
+}
+ @media (min-width: 1024px){
+    h2{
+    padding-right: 290px;
+    padding-bottom:50px;
+}
+.post{
+    margin-right: 80px;
+}
+} 
