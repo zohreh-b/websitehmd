@@ -33,7 +33,7 @@ get f() { return this.registerForm.controls; }
 
 onSubmit() {
   this.submitted = true;
-  console.log('done');alert('اطلاعات شما ثبت شد (وارد شوید)',);
+ 
 
   // stop here if form is invalid
   if (this.registerForm.invalid) {
