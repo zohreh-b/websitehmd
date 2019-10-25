@@ -22,7 +22,7 @@ const routes: Routes = [
   {path:'listmenu',component:ListmenuComponent},
   {path:'dashboard',component:DashboardComponent},
   {path:'login',component:LoginComponent},
-  {path:'signup/:username',component:SignupComponent},
+  {path:'signup',component:SignupComponent},
   {path:'eshterak', component:EshterakComponent},
   {path:'not-found',component:NotFoundComponent},
   {path:'**',redirectTo:'/not-found'}
